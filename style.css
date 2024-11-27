@@ -1,0 +1,300 @@
+@import url('reset.css');
+
+html{
+    font-size: 1rem;
+}
+
+body{
+    background-color: #606060;
+}
+
+.wrapper{
+    width: 1500px;
+    margin: 0 auto;
+ 
+    /* border: 1px yellowgreen solid; */
+
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* -------------- 天 ------------ */
+.top{
+    background-color: #251812;
+    height: 70px;
+    width: 1500px;
+   
+    /* border: 1px brown solid; */
+}
+
+/* .top-main{
+    border: 1px rebeccapurple solid;
+    width: 1200px;
+    margin: 0 140px;
+
+    overflow: hidden;
+
+} */
+
+.top-logo{
+    height: 60px;
+    float: left;
+
+    /* border: 1px mediumaquamarine solid; */
+    margin-top: 4px;
+    margin-left: 140px;
+}
+
+.top-list{
+    float:right;
+    font-size: 1.75rem;
+ 
+    /* border: 1px mediumaquamarine solid; */
+    margin-top: 22px;
+    margin-right: 140px;
+}
+
+li{
+    float: left;
+    margin-left: 120px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #F1F3EE;
+}
+
+a:hover{
+    color: #606060;
+}
+
+/* ------------- KV -------------- */
+.kv{
+    /* border: 1px indianred solid; */
+    height: 840px;
+    width: 1500px;
+    background-color: #A2918C;
+    position: relative;
+    overflow: hidden;
+
+        
+    background-image: url('../project/img/flower_gray.png');
+    background-size: 1204px 1190px;
+    background-position: 958px -787px;
+}
+
+.kv-coffee{
+    height: 840px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.kv-title{
+    float:right;
+    width: 900px;
+    height: 550px;
+    text-align: center;
+    margin-right: 70px;
+    margin-top: 200px;
+
+    overflow: hidden;
+
+    /* border: 1px brown solid; */
+}
+
+h1{
+    font-size: 7rem;
+    font-weight: bold;
+    color: #251812;
+    text-shadow: 2px 3px 10px rgba(241,243,238,0.5);
+    margin-bottom: 20px;
+}
+
+.kv-word{
+    border-radius: 360%;
+    background: #F1F3EE;
+    display: block;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #251812;
+
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
+}
+
+.kv-subtitle{
+    color: #F1F3EE;
+    margin-bottom: 62px;
+}
+
+.kv-line{
+    display: block;
+    width: 900px;
+    height: 1px;
+    background-color: #F1F3EE;
+    margin-bottom: 62px;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.6;
+    color: #251812;
+    position: relative;
+}
+
+h3::before{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 88px;
+    bottom: -315px;
+    height: 410px;
+    width: 102px;
+    background-image: url('../project/img/left.png');
+    background-size: 35px 95px;
+    background-repeat: no-repeat;
+   
+}
+
+h3::after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 778px;
+    bottom: -315px;
+    height: 410px;
+    width: 102px;
+    background-image: url('../project/img/right.png');
+    background-size: 35px 95px;
+    background-repeat: no-repeat;
+   
+}
+
+
+/* ------------- Bean-intro -------------- */
+.bean-intro{
+    background-image: url(../project/img/bg_white_s.png);
+    height: 910px;
+    color: #3F3330;
+}
+
+
+.bean-name{
+    height: 3.75rem;
+    width: 830px;
+    text-align: center;
+    
+    border-bottom: 2px #B99865 solid; 
+    margin: 0 auto;
+    padding-top: 150px;
+    margin-bottom: 100px;
+}
+
+.bean-img-price{
+    /* border: 1px brown solid; */
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.bean-logo{
+    width: 400px;
+    height: 300px;
+    /* border: 1px orange solid; */
+}
+
+.bean-price{
+    /* border: 1px olive solid; */
+    font-size: 2rem;
+    font-weight: bold;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.p1{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.p-top{
+    text-align: center;
+    width: 180px;
+    height: 90px;
+    align-content: flex-end;
+    margin-right: 24px;
+}
+
+.p-top :last-child{
+    font-size: 1.5rem;
+}
+
+.p1 > p{
+    font-size: 6rem;
+    justify-content: flex-end;
+}
+
+.txt1{
+    font-size: 1.25rem;
+}
+
+.p2{
+    display: flex;
+}
+
+.p-buttom{
+    text-align: center;
+    width: 180px;
+    height: 90px;
+    align-content: center;
+    margin-right: 60px;
+    background-color: #3F3330;
+    border: 5px #B99865 solid;
+    border-radius: 20px;
+    color: #F1F3EE;
+}
+
+.p-buttom :last-child{
+    font-size: 1.5rem;
+}
+
+.p2 > p{
+    font-size: 6rem;
+    color: #B99865;
+}
+
+.txt2{
+    font-size: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
